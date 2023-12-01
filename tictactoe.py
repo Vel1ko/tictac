@@ -37,7 +37,8 @@ def numberuno(b,l):
     (b[3] == l and b[6] == l and b[9] == l) or
     (b[1] == l and b[5] == l and b[9] == l) or
     (b[3] == l and b[5] == l and b[7] == l))
-#Har väljer spelaren sitt val där de ska plasera ett x på en av de 9 rutor.
+#Har väljer spelaren sitt val där de ska plasera ett x på en av de 9 rutor
+#om de händer att spelaren väljer en ruta som är ockuperad så frågar den igen spelaren att välja en ny ruta.
 def movefirst():
     run = True
     while run:
@@ -133,5 +134,6 @@ while True:
         print('--------------------')
         mainman()
     if x.lower() == 'n':
+#Jag la till denna lila print texten.
         print("Varför inte :(")
         break

@@ -1,5 +1,5 @@
 # Tre i rad YIPPI
-Tre i rad spel som körs i python. rätt så kul spel. Jag gillar marabou
+Tre i rad spel som körs i python. rätt så kul spel. (Jag gillar marabou)
 
 Lycka till
 
