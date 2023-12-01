@@ -135,5 +135,6 @@ while True:
         mainman()
     if x.lower() == 'n':
 #Jag la till denna lila print texten.
+#Texten gör eed mer roligare.
         print("Varför inte :(")
         break
